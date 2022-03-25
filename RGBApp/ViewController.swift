@@ -18,16 +18,6 @@ class ViewController: UIViewController {
     @IBOutlet var greenSlider: UISlider!
     @IBOutlet var blueSlider: UISlider!
 
-
-//    @IBOutlet var colorView: UIView!
-//
-//    @IBOutlet var redLable: UILabel!
-//    @IBOutlet var greenLable: UILabel!
-//    @IBOutlet var blueLable: UILabel!
-//
-//    @IBOutlet var redSlider: UISlider!
-//    @IBOutlet var greenSlider: UISlider!
-//    @IBOutlet var blueSlider: UISlider!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,9 +26,6 @@ class ViewController: UIViewController {
 
         redSlider.minimumTrackTintColor = .red
         greenSlider.minimumTrackTintColor = .green
-
-
-
 
         setColor()
         setValue(for: redLable, greenLable, blueLable)
